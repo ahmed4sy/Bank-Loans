@@ -23,14 +23,28 @@ function StateStart() {
 function StateForm() {
   return (
     <div id="form">
-      <h1>this StateForm</h1>
+      <h1>Request to Loan</h1>
+      <input type="text" className="name" placeholder="User Name.." />
+      <input type="text" className="age" placeholder="Age.." />
+
+      <div className="chi">
+        <input type="text" className="phone" placeholder="My Phone" />
+        <input type="checkbox" className="check" />
+        <p>Are you employed</p>
+      </div>
+
+      <select>
+        <option>50 ~ 100 $</option>
+        <option>100 ~ 500 $</option>
+        <option>1,000 ~ 10,000 $</option>
+      </select>
     </div>
   );
 }
 function Done() {
-  return (
-    <div id="end">
-      <h1>this Done</h1>
-    </div>
-  );
+  if (false) {
+    return <h1 className="true">Sent Successfully</h1>;
+  } else {
+    return <h1 className="false">Sent Failed</h1>;
+  }
 }

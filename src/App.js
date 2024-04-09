@@ -8,7 +8,7 @@ function App() {
   let [But, setBut] = useState("Start");
   function UpState() {
     numsUp++;
-    let namesBut = ["Start", "Send", "Back"];
+    let namesBut = ["Loans", "Send", "Back"];
     if (numsUp === 3) {
       numsUp = 0;
     }
