@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  user-select: none;
 }
 
 .App-logo {
@@ -29,6 +30,7 @@
   border-color: #5885AF;
   border-radius: 20px;
   padding: 25px;
+  transition: width 2s;
 }
 .island button {
   border: none;
